@@ -1,0 +1,109 @@
+.body {
+  margin: 0;
+}
+
+.header {
+  padding: 10px;
+  text-align: center;
+}
+.navigation {
+  width: 100%;
+  margin: 0 auto;
+}
+.link {
+  margin: 15px;
+  color: #222222;
+  font-family: "TildaSans", Arial, sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 2px solid #00b43f;
+}
+.link:hover {
+  background-color: #00b43f;
+  color: white;
+  transition: all 0.1s linear 0s;
+}
+.main {
+  margin: 0 auto;
+  width: 1000px;
+}
+.main_card {
+  margin: 3em 5em 2em 5em;
+  position: relative;
+  border: 5px dashed #00b43f;
+  text-align: center;
+  padding: 1em;
+}
+.profile_photo {
+  border: 3px solid #222222;
+}
+.title {
+  font-family: "TildaSans", Arial, sans-serif;
+  font-weight: 600;
+  text-align: center;
+  color: #222222;
+}
+.main_info {
+  margin: 1em 5em;
+  position: relative;
+  border: 5px dashed #00b43f;
+  padding: 2em 3em;
+}
+.subtitle {
+  font-family: "TildaSans", Arial, sans-serif;
+  color: #222222;
+}
+.main_text {
+  font-size: 17px;
+  font-family: "TildaSans", Arial, sans-serif;
+  margin-bottom: 2em;
+}
+.first_list {
+  list-style: none;
+  margin-left: -2em;
+  font-size: 17px;
+  font-family: "TildaSans", Arial, sans-serif;
+}
+.li_1 {
+  position: relative;
+  font-size: 17px;
+}
+.first_list li {
+  padding-left: 20px;
+}
+.li_1::before {
+  content: "\25B6";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #00b43f;
+}
+.footer {
+  width: 1000px;
+  margin: 0 auto;
+}
+.contacts {
+  margin: 2em 5em 2em 5em;
+  position: relative;
+  background-color: #00b43f;
+  padding: 2em;
+}
+.subtitle_2 {
+  font-family: "TildaSans", Arial, sans-serif;
+  color: white;
+  margin: 1em;
+}
+.footer_text {
+  font-size: 17px;
+  font-family: "TildaSans", Arial, sans-serif;
+  margin-bottom: 2em;
+  color: white;
+  margin: 1em;
+}
+.footer_link {
+  color: white;
+  margin: 1em;
+}
+.ser {
+  margin: 10px 40px 15px 10px;
+}

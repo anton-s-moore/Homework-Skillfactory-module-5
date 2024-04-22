@@ -1,0 +1,122 @@
+.body {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  display: flex;
+  min-height: 116px;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 80px;
+  padding-right: 36px;
+}
+.header__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 31px;
+}
+.header__link {
+  position: relative;
+  font-family: "Open-Sans", sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+.header__link::before,
+.header__link::after {
+  position: absolute;
+  content: "";
+  bottom: -5px;
+  width: 0;
+  left: 50%;
+  height: 2px;
+  background: black;
+  transition: all 0.3s ease-in-out;
+}
+
+.header__link:hover::before,
+.header__link:hover::after {
+  width: 50%;
+}
+.header__link::before {
+  transform: translateX(-100%);
+}
+.header__btn {
+  width: 150px;
+  min-height: 43px;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: black;
+  background-color: transparent;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.header__btn:hover {
+  color: white;
+  background-color: black;
+  transition: 0.2s ease-in-out;
+}
+.hero {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: #f1f1f2;
+  width: 100%;
+  max-height: 535px;
+}
+.hero__info_block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 4em;
+  margin-right: 4em;
+}
+
+.hero__img {
+  max-height: 535px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hero__heading {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.5em;
+}
+.hero__text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5em;
+}
+.hero__list {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5em;
+  list-style: none;
+}
+.hero__text_link {
+  margin-left: -1.5em;
+}
+.footer__heading {
+  margin-top: 3em;
+  margin-bottom: 0.5em;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.5em;
+  text-align: center;
+}
+.footer__heading_info {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.5em;
+}
+.footer__text {
+  margin: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+}
+.footer_linkbar {
+  display: flex;
+  padding-left: 40%;
+  padding-right: 40%;
+  justify-content: space-evenly;
+  margin-bottom: 5em;
+}
